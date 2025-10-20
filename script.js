@@ -159,3 +159,32 @@ loadData();
     "description": "Les débuts de Batman, entre justice, corruption et vengeance à Gotham City."
   }
 ]
+
+// script.js
+
+// Charger la liste de comics depuis comics.json
+fetch('comics.json')
+  .then(response => response.json())
+  .then(comics => {
+    const container = document.querySelector('.nouveaux-comics');
+
+    // Vérifie que le conteneur existe
+    if (!container) {
+      console.error('Conteneur .nouveaux-comics introuvable dans le HTML');
+      return;
+    }
+
+    // Crée une carte pour chaque comic
+    comics.forEach(comic => {
+      const card = document.createElement('div');
+      card.classList.add('comic-card');
+      card.innerHTML = `
+        <img src="${comic.image}" alt="${comic.titre}" />
+        <h3>${comic.titre}</h3>
+        <p><strong>${comic.auteur}</strong></p>
+        <p>${comic.description}</p>
+      `;
+      container.appendChild(card);
+    });
+  })
+  .catch(error => console.error('Erreur chargement comics:', error));
