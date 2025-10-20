@@ -138,3 +138,24 @@ function fakeLogin(){
 }
 
 loadData();
+
+[
+  {
+    "id": 1,
+    "titre": "Spider-Man: Renaissance",
+    "auteur": "Stan Lee",
+    "categorie": "Marvel",
+    "note": 4.8,
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Spiderman50.jpg",
+    "description": "Peter Parker affronte son destin dans une aventure emblématique de l’univers Marvel."
+  },
+  {
+    "id": 2,
+    "titre": "Batman: Année Un",
+    "auteur": "Frank Miller",
+    "categorie": "DC",
+    "note": 4.7,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Batman_Year_One.jpg",
+    "description": "Les débuts de Batman, entre justice, corruption et vengeance à Gotham City."
+  }
+]
