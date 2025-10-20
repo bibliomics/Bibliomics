@@ -42,7 +42,7 @@
     "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Spiderman50.jpg",
     "short": "Peter Parker affronte son destin dans une aventure emblématique de l’univers Marvel.",
     "tome": 1,
-    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/spider-man-2016" }
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/2020-iron-age-2020/1" }
   },
   {
     "id": 2,
@@ -100,3 +100,4 @@
     "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/the-sandman" }
   }
 ]
+
