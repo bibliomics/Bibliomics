@@ -1,39 +1,5 @@
 [
   {
-    "id":"indie-1",
-    "title":"Éclats d'encre — Tome 1",
-    "short":"Anthologie de comics indépendants.",
-    "category":"Comics Indé",
-    "cover":"img/sample1.svg",
-    "images":["img/sample1.svg"],
-    "tome":1,
-    "added":20250101,
-    "rating":4.2,
-    "viewer":{"type":"images"},
-    "download":"https://archive.org/"
-  },
-  {
-    "id":"marvel-1",
-    "title":"Marvel Fan — Tome 1",
-    "short":"Compilation fan-made Marvel.",
-    "category":"Marvel",
-    "cover":"img/sample2.svg",
-    "tome":1,
-    "added":20250415,
-    "rating":3.8,
-    "viewer":{"type":"iframe","src":"https://archive.org/"},
-    "download":"https://archive.org/"
-  },
-  {
-    "id":"dc-1",
-    "title":"DC Stories — Tome 2",
-    "short":"Recueil DC moderne.",
-    "category":"DC",
-    "cover":"img/sample3.svg",
-    "tome":
-
-[
-  {
     "id": 1,
     "title": "Spider-Man: Renaissance",
     "auteur": "Stan Lee",
@@ -100,4 +66,5 @@
     "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/the-sandman" }
   }
 ]
+
 
