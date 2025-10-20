@@ -1,66 +1,74 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Bibliomics</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bibliomics</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="topbar">
-  <div class="brand">Bibliomics</div>
-  <nav class="nav">
-    <button id="btn-login" class="nav-btn">Connexion</button>
-    <button id="btn-library" class="nav-btn">Ma bibliothèque</button>
-    <button id="btn-history" class="nav-btn">Mon historique</button>
-    <button id="btn-dice" class="nav-btn">🎲 Lance les dés</button>
-  </nav>
-</header>
+  <header class="topbar">
+    <div class="brand">Bibliomics</div>
+    <nav class="nav">
+      <a href="#" id="btn-login" class="nav-btn">Connexion</a>
+      <a href="#" id="btn-library" class="nav-btn">Ma bibliothèque</a>
+      <a href="#" id="btn-history" class="nav-btn">Mon historique</a>
+      <a href="#" id="btn-dice" class="nav-btn">🎲 Lance les dés</a>
+    </nav>
+  </header>
 
-<main class="container">
-  <section class="hero">
-    <h1>Bienvenue sur Bibliomics</h1>
-    <p>Ta bibliothèque communautaire — lecture en ligne, notes et découvertes.</p>
-    <div class="hero-actions">
-      <button id="discover-random" class="primary">Découvrir au hasard</button>
-    </div>
-  </section>
+  <main class="container">
+    <section class="hero">
+      <h1>Bienvenue sur Bibliomics</h1>
+      <p>Ta bibliothèque communautaire — lecture en ligne, notes et découvertes.</p>
+      <div class="hero-actions">
+        <a href="#" id="discover-random" class="primary">Découvrir au hasard</a>
+      </div>
+    </section>
 
-  <section id="best-rated" class="carousel">
-    <h2>⭐ Les mieux notés</h2>
-    <div class="row" id="best-row"></div>
-  </section>
+    <section id="best-rated" class="carousel">
+      <h2>⭐ Les mieux notés</h2>
+      <div class="row" id="best-row"></div>
+    </section>
 
-  <section id="latest" class="carousel">
-    <h2>🆕 Derniers ajouts</h2>
-    <div class="row" id="latest-row"></div>
-  </section>
+    <section id="latest" class="carousel">
+      <h2>🆕 Derniers ajouts</h2>
+      <div class="row" id="latest-row"></div>
+    </section>
 
-  <section id="categories" class="grid">
-    <h2>Catégories</h2>
-    <div class="cats">
-      <button class="cat-btn" data-cat="Comics Indé">Comics Indé</button>
-      <button class="cat-btn" data-cat="Marvel">Marvel</button>
-      <button class="cat-btn" data-cat="DC">DC</button>
-      <button class="cat-btn" data-cat="Recommandations">Recommandations</button>
-    </div>
-    <div id="cat-row" class="row"></div>
-  </section>
-</main>
+    <section id="categories" class="grid">
+      <h2>Catégories</h2>
+      <div class="cats">
+        <button class="cat-btn" data-cat="Comics Indé">Comics Indé</button>
+        <button class="cat-btn" data-cat="Marvel">Marvel</button>
+        <button class="cat-btn" data-cat="DC">DC</button>
+        <button class="cat-btn" data-cat="Recommandations">Recommandations</button>
+      </div>
+      <div id="cat-row" class="row"></div>
+    </section>
 
-<!-- Modal / Reader -->
-<div id="modal" class="modal hidden">
-  <div class="modal-content">
-    <button id="modal-close" class="close">✕</button>
-    <div id="reader-area"></div>
-    <div class="reader-actions">
-      <button id="add-fav">Ajouter à ma bibliothèque</button>
-      <button id="download-btn">⬇️ Télécharger</button>
-      <div class="rating" id="rating-area"></div>
+    <!-- 📚 Nouvelle section : Comics de test -->
+    <section id="comics-test" class="comics-section">
+      <h2>📚 Nouveaux Comics</h2>
+      <div class="nouveaux-comics"></div>
+    </section>
+  </main>
+
+  <!-- Modal / Reader -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modal-close" class="close">✕</button>
+      <div id="reader-area"></div>
+      <div class="reader-actions">
+        <button id="add-fav">Ajouter à ma bibliothèque</button>
+        <button id="download-btn">⬇️ Télécharger</button>
+        <div class="rating" id="rating-area"></div>
+      </div>
     </div>
   </div>
-</div>
 
-<script src="script.js"></script>
+  <!-- JS principal -->
+  <script src="script.js"></script>
 </body>
 </html>
