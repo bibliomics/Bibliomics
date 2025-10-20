@@ -31,3 +31,72 @@
     "category":"DC",
     "cover":"img/sample3.svg",
     "tome":
+
+[
+  {
+    "id": 1,
+    "title": "Spider-Man: Renaissance",
+    "auteur": "Stan Lee",
+    "category": "Marvel",
+    "rating": 4.8,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Spiderman50.jpg",
+    "short": "Peter Parker affronte son destin dans une aventure emblématique de l’univers Marvel.",
+    "tome": 1,
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/spider-man-2016" }
+  },
+  {
+    "id": 2,
+    "title": "Batman: Année Un",
+    "auteur": "Frank Miller",
+    "category": "DC",
+    "rating": 4.7,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4a/Batman_Year_One.jpg",
+    "short": "Les débuts de Batman, entre justice, corruption et vengeance à Gotham City.",
+    "tome": 1,
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/batman-year-one" }
+  },
+  {
+    "id": 3,
+    "title": "Invincible #1",
+    "auteur": "Robert Kirkman",
+    "category": "Comics Indé",
+    "rating": 4.6,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/5f/Invincible1.jpg",
+    "short": "Un adolescent découvre qu’il a hérité des pouvoirs d’un héros venu d’ailleurs.",
+    "tome": 1,
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/invincible-2003" }
+  },
+  {
+    "id": 4,
+    "title": "Watchmen",
+    "auteur": "Alan Moore",
+    "category": "Recommandations",
+    "rating": 4.9,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3f/Watchmen-cover.jpg",
+    "short": "Des super-héros vieillissants confrontés à la fin du monde dans un thriller politique intense.",
+    "tome": 1,
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/watchmen" }
+  },
+  {
+    "id": 5,
+    "title": "X-Men: Days of Future Past",
+    "auteur": "Chris Claremont",
+    "category": "Marvel",
+    "rating": 4.5,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/Uncanny_X-Men_141.jpg",
+    "short": "Les mutants doivent changer le passé pour éviter un futur apocalyptique.",
+    "tome": 1,
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/x-men-days-of-future-past" }
+  },
+  {
+    "id": 6,
+    "title": "Sandman",
+    "auteur": "Neil Gaiman",
+    "category": "Comics Indé",
+    "rating": 4.9,
+    "cover": "https://upload.wikimedia.org/wikipedia/en/d/d3/Sandman1.jpg",
+    "short": "L’histoire poétique et sombre du Seigneur des Rêves, entre mythologie et cauchemar.",
+    "tome": 1,
+    "viewer": { "type": "iframe", "src": "https://readcomicsonline.ru/comic/the-sandman" }
+  }
+]
